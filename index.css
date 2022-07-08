@@ -1,0 +1,106 @@
+body {
+  /*background: #2E8B88;*/
+  background: linear-gradient(top left, #446076, #222737);
+  background: -webkit-linear-gradient(top left, #446076, #222737);
+  background: -moz-linear-gradient(top left, #446076, #222737);
+  justify-items: center;
+}
+
+#main {
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  max-width: 600px;
+  max-height: 800px;
+  justify-content: center;
+  background: -webkit-linear-gradient(
+    -175deg,
+    rgb(159, 224, 252),
+    rgb(5, 41, 72)
+  );
+  background: linear-gradient(-175deg, rgb(159, 224, 252), rgb(5, 41, 72));
+  box-shadow: 1em black;
+  border: 1px solid;
+  border-radius: 1em;
+  box-shadow: 0.3em 0.4em 0.7em rgba(22, 26, 36, 0.671);
+}
+header {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  /*a checker! responsive*/
+  justify-content: space-around;
+  align-items: center;
+  margin: ;
+  padding: 1em 2em 1em 3em;
+  border: 2px solid red;
+}
+
+header section {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  border: 2px solid #7ba31d;
+}
+h1 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  letter-spacing: 0.03em;
+  text-shadow: 0.01em 0.03em 0.04em rgb(203, 216, 228);
+  color: #07214f;
+  /* background-image:(linear-gradient(45deg, #f3ec78, #af4261);
+    text-fill-color: transparent;
+    background-clip: text;*/
+  display: flex;
+  align-items: ;
+  align-content: center;
+  /*justify-content: center;*/
+  border: 3px solid blueviolet;
+  padding: 0.7em;
+}
+
+h2 {
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+  font-weight: 600;
+  font-size: 2em;
+  letter-spacing: 0.03em;
+  text-shadow: 0.01em 0.03em 0.04em rgb(203, 216, 228);
+  color: #1a212d;
+  /* background-image:(linear-gradient(45deg, #f3ec78, #af4261);
+    text-fill-color: transparent;
+    background-clip: text;*/
+  display: flex;
+  align-items: center;
+  align-content: center;
+  /*justify-content: center;*/
+  border: 3px solid blueviolet;
+  padding: 0.7em;
+}
+aside {
+  /*max-width: 100px;*/
+  display: flex;
+  justify-content: center;
+  /*padding-left: 2em;*/
+  border: 2px greenyellow;
+  margin: auto;
+  padding: 1em;
+}
+
+aside img {
+  width: 14em;
+  height: 14em;
+  /*max-width: 200px;*/
+  border-radius: 50%;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 12px;
+}
+
+ul > li {
+  list-style-type: none;
+}
+
+footer {
+  display: flex;
+  border: 1px solid;
+}
